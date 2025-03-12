@@ -1,0 +1,118 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&family=Open+Sans:ital,wdth,wght@0,75..100,300..800;1,75..100,300..800&display=swap');
+
+
+
+body {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Open Sans", sans-serif;
+}
+
+header {
+    align-items: center;
+    background-color: #091423;
+}
+
+
+.navbar {
+    margin: 0;
+    padding: 0;
+    background-color: #091423;
+    display: flex;
+    justify-content: space-between;
+}
+
+.logo {}
+
+.logo a {
+    text-decoration: none;
+    color: green;
+}
+
+.logo h2 {
+    padding: 0 0 0 15px;
+    margin: 0;
+}
+
+.logo span {
+    color: yellow;
+}
+
+.institute {
+    color: rgba(0, 128, 0, 0.377);
+    margin: 0 0;
+}
+
+
+
+nav {
+    display: flex;
+    padding: 0px 0px 0px 0;
+}
+
+nav ul {
+    display: inline;
+    list-style: none;
+    display: flex;
+    color: white;
+    font-size: 12px;
+    font-weight: 700;
+}
+
+nav ul li {
+
+    text-decoration: none;
+
+    padding: 0px 15px 0px 0;
+}
+
+nav ul li a {
+    font-weight: 600;
+}
+
+/* banner */
+.banner {
+    text-align: center;
+}
+
+.banner h1 {
+    color: white;
+}
+
+.banner p {
+    color: white;
+}
+
+.one {
+    font-size: 16px;
+    background-color: #06d889;
+    border-radius: 5px;
+    padding: 5px 10px;
+    border: 1px solid #06d889;
+    transition: all 0.3s ease-in;
+    margin: 5px;
+}
+
+.two {
+    font-size: 16px;
+    background-color: rgba(0, 0, 0, 0.562);
+    border-radius: 5px;
+    padding: 5px 10px;
+    border: 1px solid #06d889;
+    transition: all 0.3s ease-in;
+    color: white;
+
+}
+
+.one:hover {
+    background-color: rgba(0, 0, 0, 0.562);
+    color: white;
+
+}
+
+.two:hover {
+
+    background-color: #06d889;
+    color: black;
+}
